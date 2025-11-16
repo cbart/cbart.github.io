@@ -1,0 +1,10 @@
+title: Cezary Bartoszuk 
+email: cezarybartoszuk@gmail.com
+description: >-
+  Rzeczy, których się ostatnio nauczyłem.
+baseurl: "" # jeśli używasz repozytorium TwojaNazwa.github.io, zostaw puste
+url: "" # Twoja domena
+
+# Ustawienia nawigacji (dla motywu Minima i wielu innych)
+header_pages:
+  - index.md
