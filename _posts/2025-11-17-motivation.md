@@ -1,6 +1,6 @@
 ## I'm not lacking motivation, I'm lacking discipline
 
-That is what [Natalie](https://www.youtube.com/@thenataliedawson) told me today via a YouTube video.
+That is what [Natalie](https://www.youtube.com/@thenataliedawson) told me today via [a YouTube video](https://www.youtube.com/watch?v=_U-k-ruu8rQ).
 It is not that I have not heard that before.
 In my defense, before therapy I was going too fast to acknowledge that outside of being negative to myself.
 During therapy on the other hand, the focus for me has been to listen to what is within.
