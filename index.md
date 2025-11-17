@@ -2,14 +2,14 @@
 layout: home
 ---
 
-Udostępnione zapiski z tego, czego się ostatnio nauczyłem.
+Shared out notes from the things most recently learnt.
 
 <article class="latest-post">
     {% assign latest_post = site.posts.first %}
     
     <header>
-        <h2>Najnowszy Post: <a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a></h2>
-        <p class="post-meta">{{ latest_post.date | date: "%Y-%m-%d" }}</p>
+        <h2>Most recent post: <a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a></h2>
+        <p class="post-meta">{{ latest_post.date | date: "%m/%d/%Y" }}</p>
     </header>
     
     {{ latest_post.content }}
@@ -18,12 +18,12 @@ Udostępnione zapiski z tego, czego się ostatnio nauczyłem.
 </article>
 
 <div class="archive-list">
-    <h3>Starsze posty:</h3>
+    <h3>Before that:</h3>
     <ul>
     {% for post in site.posts offset: 1 %}
         <li>
             <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            <span class="post-meta">— {{ post.date | date: "%Y-%m-%d" }}</span>
+            <span class="post-meta">— {{ post.date | date: "%m/%d/%Y" }}</span>
         </li>
     {% endfor %}
     </ul>
