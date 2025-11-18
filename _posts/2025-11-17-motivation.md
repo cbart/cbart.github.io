@@ -1,4 +1,7 @@
-## I'm not lacking motivation, I'm lacking discipline
+---
+layout: post
+title: "I'm not lacking motivation, I'm lacking discipline"
+---
 
 That is what [Natalie](https://www.youtube.com/@thenataliedawson) told me today via [a YouTube video](https://www.youtube.com/watch?v=_U-k-ruu8rQ).
 It is not that I have not heard that before.
