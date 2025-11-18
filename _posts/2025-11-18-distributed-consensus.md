@@ -23,4 +23,17 @@ As weird as it may sound, the following are true:
 * Oftentimes this fundamental property may need to be traded for other desirable properties (more on that later).
 * Providing good user experience, and an appearance of a consistent system on top of a database without this property requires tremendous engineering effort.
 
+I promise we are ready to make a key conclusion after I introduce one more concept.
+We call a system **available**, when well, it is ready to perform a service it is supposed to.
+A restaurant is available during its business hours, as long as there is a free table for you to sit at.
+Same with a database system: We call a database available if it can perform desired reads and writes.
+
+Now consider a database system which works at a very high scale.
+It is meant to handle more reads, writes and storage that a single computer could.
+In such case we _distribute_ the database across many machines to share the load (I interchange computer and machine).
+In order for that system to be available, it needs to be able to manipulate _any of the many pieces of data_ it holds at any given time.
+So all pieces of data need to be operational even if say, power goes out for one of the machines, or it is not connected for whatever reason.
+In order to ensure that machines can fail **the same piece of data needs to be on more than one machine** and more importantly **changes on data need to stay consistent across machines**.
+This is no easy thing.
+
 (to be continued)
