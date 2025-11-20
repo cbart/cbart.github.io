@@ -3,6 +3,8 @@ layout: post
 title: "Distributed Consensus"
 ---
 
+First of two posts.
+
 I wanted a refresher on Google Spanner core concepts, so I generated myself a 15 minute podcast from [the Spanner whitepaper](https://static.googleusercontent.com/media/research.google.com/en//archive/spanner-osdi2012.pdf).
 Let me see if I understand the concept.
 In order to do that I will try to explain why Spanner is a big deal to a reader that may not be very well versed in databases.
