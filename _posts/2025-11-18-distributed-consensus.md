@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Distributed Consensus"
+title: "Distributed Consensus (1/2)"
 ---
 
 First of two posts.
